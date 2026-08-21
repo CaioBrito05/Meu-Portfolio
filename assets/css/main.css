@@ -19,38 +19,37 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
-  --background-color: #E8DCC8; /* Warm Beige - fundo principal */
-  --default-color: #475569;    /* Slate - textos */
-  --heading-color: #1F2A44;    /* Navy - títulos */
-  --accent-color: #C6A75E;     /* Soft Gold - destaque */
-  --surface-color: #FAF8F3;    /* Off White - cards e superfícies */
-  --contrast-color: #FFFFFF;   /* Texto sobre fundos escuros */
+  --background-color: #E7EEF2;
+  --default-color: #53636E;
+  --heading-color: #142A38;
+  --accent-color: #789EAD;
+  --surface-color: #FCFDFC;
+  --contrast-color: #FFFFFF;
 }
 
-/* Nav Menu Colors */
 :root {
-  --nav-color: #1F2A44;                 /* Links do menu */
-  --nav-hover-color: #C6A75E;           /* Hover/ativo */
-  --nav-mobile-background-color: #FAF8F3;
-  --nav-dropdown-background-color: #FAF8F3;
-  --nav-dropdown-color: #1F2A44;
-  --nav-dropdown-hover-color: #C6A75E;
+  --nav-color: #142A38;
+  --nav-hover-color: #789EAD;
+  --nav-mobile-background-color: #FCFDFC;
+  --nav-dropdown-background-color: #FCFDFC;
+  --nav-dropdown-color: #142A38;
+  --nav-dropdown-hover-color: #789EAD;
 }
-
-/* Color Presets */
 
 .light-background {
-  --background-color: #F7F3EB;
+  --background-color: #F1F5F7;
   --surface-color: #FFFFFF;
 }
 
 .dark-background {
-  --background-color: #1F2A44;
-  --default-color: #E8DCC8;
+  --background-color: #142A38;
+  --default-color: #D7E1E6;
   --heading-color: #FFFFFF;
-  --surface-color: #172033;
+  --surface-color: #0D202B;
   --contrast-color: #FFFFFF;
 }
+
+
 
 /* Smooth scroll */
 :root {
